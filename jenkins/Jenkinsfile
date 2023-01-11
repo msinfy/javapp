@@ -9,7 +9,7 @@ pipeline {
     stages {
       
       
-      stage ("Docker") {
+      stage("Docker") {
         
           docker {
             image 'maven:3-alpine'
