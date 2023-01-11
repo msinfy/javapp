@@ -2,7 +2,7 @@ pipeline {
   
   tools {
     
-   maven 'MAVEN' 
+   maven 'mvn' 
   }
   
     agent {
